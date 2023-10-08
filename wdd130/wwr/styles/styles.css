@@ -1,0 +1,170 @@
+content {
+  max-width: 1600px;
+  margin: 0 auto; /* This centers the content on the page */
+}
+
+/* Center elements within <nav> */
+nav a {
+  text-align: center;
+}
+
+/* Center elements within #hero-msg */
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
+}
+
+/* Center elements within .button-box */
+.button-box {
+  text-align: center;
+}
+
+/* Center elements within sections in <main> */
+main section {
+  text-align: center;
+}
+
+/* CSS for the background container */
+#background {
+  height: 725px; /* Sets the desired height */
+}
+
+/* Background color for the body */
+body {
+  background-color: #e3e2e9;
+}
+
+/* Background color for the header */
+header {
+  background-color: rgba(16, 36, 1, 0.7);
+}
+
+/* Background color when hovering over navigation links (nav a:hover) */
+nav a:hover {
+  background-color: rgb(10, 3, 3);
+}
+
+/* Background color for "Book Now" and "Join Us" buttons (.book, .join) */
+.book, .join {
+  background-color: #ff9900;
+}
+
+/* Background color when hovering over "Book Now" and "Join Us" buttons (.book:hover, .join:hover) */
+.book:hover, .join:hover {
+  background-color: #ff6600;
+}
+
+/* Background color for the background container (#background) */
+#background {
+  background-color: #b9c2c0;
+}
+
+/* Background color for the message section (section.msg) */
+.msg {
+  background-color: #f2f2f2;
+}
+
+/* Background color for the footer */
+footer {
+  background-color: #312727;
+  color: white;
+}
+
+/* Text color change for navigation links (nav a) */
+nav a {
+  color: #333;
+}
+
+/* Text color change when hovering over navigation links (nav a:hover) */
+nav a:hover {
+  color: #ff6600;
+}
+
+/* Text color change for the main title (h1.home-title) */
+.home-title {
+  color: #333;
+}
+
+/* Text color change for subtitles (h4) */
+h4 {
+  color: #0f0808;
+}
+
+/* Text color change for "Book Now" and "Join Us" buttons (.book, .join) */
+.book, .join {
+  color: #807c7c;
+}
+
+/* Text color change when hovering over "Book Now" and "Join Us" buttons (.book:hover, .join:hover) */
+.book:hover, .join:hover {
+  color: #fff;
+}
+
+/* Text color change for the title within the message section (section.msg h2) */
+.msg h2 {
+  color: #333;
+}
+
+/* Text color change for text within the message section (section.msg p) */
+.msg p {
+  color: #666;
+}
+
+/* Text color change for footer text */
+footer {
+  color: #fff;
+}
+
+/* Text color change for footer links (footer a) */
+footer a {
+  color: #ff6600;
+}
+
+/* Text color change when hovering over footer links (footer a:hover) */
+footer a:hover {
+  color: #fff;
+}
+
+/* Width for the logo (using the .logo class) */
+.logo {
+  width: 80px;
+}
+
+/* Width for all card icons (using the .icon class) */
+.icon {
+  width: 80px;
+}
+
+/* Width for the hero image (using the ID #hero-img) */
+#hero-img {
+  width: 100%;
+}
+
+/* Remove underline from links in the navigation menu (nav a) */
+nav a {
+  text-decoration: none;
+  color: #fcfbfb;
+}
+
+/* Add underline when hovering over "Book Now" and "Join Us" buttons (.book, .join) */
+.book, .join {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Add underline when hovering over links in the footer (footer a) */
+footer a {
+  text-decoration: none;
+  color: #ff6600;
+}
+
+/* Add underline when hovering over links within paragraphs in the footer (footer p a:hover) */
+footer p a:hover {
+  text-decoration: underline;
+}
+
+/* Increase font size in the footer (footer p) */
+footer p {
+  font-size: 1.2em;
+}
+
